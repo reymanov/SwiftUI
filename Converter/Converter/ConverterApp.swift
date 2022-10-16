@@ -1,10 +1,10 @@
 import SwiftUI
 
 @main
-struct UnitsApp: App {
+struct ConverterApp: App {
     var body: some Scene {
         WindowGroup {
-            ListView()
+            ConverterView()
         }
     }
 }

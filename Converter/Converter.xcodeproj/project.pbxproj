@@ -7,26 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C7DD86428F9A39300D04D5F /* UnitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DD86328F9A39300D04D5F /* UnitsApp.swift */; };
-		8C7DD86628F9A39300D04D5F /* LengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DD86528F9A39300D04D5F /* LengthView.swift */; };
+		8C7DD86428F9A39300D04D5F /* ConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DD86328F9A39300D04D5F /* ConverterApp.swift */; };
+		8C7DD86628F9A39300D04D5F /* ConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DD86528F9A39300D04D5F /* ConverterView.swift */; };
 		8C7DD86828F9A39500D04D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7DD86728F9A39500D04D5F /* Assets.xcassets */; };
 		8C7DD86B28F9A39500D04D5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7DD86A28F9A39500D04D5F /* Preview Assets.xcassets */; };
-		8C7DD87428F9BCB100D04D5F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DD87328F9BCB100D04D5F /* ListView.swift */; };
-		8C7DD87628F9BF6200D04D5F /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DD87528F9BF6200D04D5F /* TemperatureView.swift */; };
-		8C7DD87828F9BF7000D04D5F /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DD87728F9BF7000D04D5F /* TimeView.swift */; };
-		8C7DD87A28F9BF7A00D04D5F /* VolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7DD87928F9BF7A00D04D5F /* VolumeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C7DD86028F9A39300D04D5F /* Units.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Units.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C7DD86328F9A39300D04D5F /* UnitsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsApp.swift; sourceTree = "<group>"; };
-		8C7DD86528F9A39300D04D5F /* LengthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthView.swift; sourceTree = "<group>"; };
+		8C7DD86028F9A39300D04D5F /* Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Converter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7DD86328F9A39300D04D5F /* ConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterApp.swift; sourceTree = "<group>"; };
+		8C7DD86528F9A39300D04D5F /* ConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterView.swift; sourceTree = "<group>"; };
 		8C7DD86728F9A39500D04D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C7DD86A28F9A39500D04D5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8C7DD87328F9BCB100D04D5F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		8C7DD87528F9BF6200D04D5F /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
-		8C7DD87728F9BF7000D04D5F /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
-		8C7DD87928F9BF7A00D04D5F /* VolumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +35,7 @@
 		8C7DD85728F9A39300D04D5F = {
 			isa = PBXGroup;
 			children = (
-				8C7DD86228F9A39300D04D5F /* Units */,
+				8C7DD86228F9A39300D04D5F /* Converter */,
 				8C7DD86128F9A39300D04D5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,24 +43,20 @@
 		8C7DD86128F9A39300D04D5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C7DD86028F9A39300D04D5F /* Units.app */,
+				8C7DD86028F9A39300D04D5F /* Converter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C7DD86228F9A39300D04D5F /* Units */ = {
+		8C7DD86228F9A39300D04D5F /* Converter */ = {
 			isa = PBXGroup;
 			children = (
-				8C7DD86328F9A39300D04D5F /* UnitsApp.swift */,
-				8C7DD87328F9BCB100D04D5F /* ListView.swift */,
-				8C7DD86528F9A39300D04D5F /* LengthView.swift */,
-				8C7DD87528F9BF6200D04D5F /* TemperatureView.swift */,
-				8C7DD87728F9BF7000D04D5F /* TimeView.swift */,
-				8C7DD87928F9BF7A00D04D5F /* VolumeView.swift */,
+				8C7DD86328F9A39300D04D5F /* ConverterApp.swift */,
+				8C7DD86528F9A39300D04D5F /* ConverterView.swift */,
 				8C7DD86728F9A39500D04D5F /* Assets.xcassets */,
 				8C7DD86928F9A39500D04D5F /* Preview Content */,
 			);
-			path = Units;
+			path = Converter;
 			sourceTree = "<group>";
 		};
 		8C7DD86928F9A39500D04D5F /* Preview Content */ = {
@@ -82,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C7DD85F28F9A39300D04D5F /* Units */ = {
+		8C7DD85F28F9A39300D04D5F /* Converter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C7DD86E28F9A39500D04D5F /* Build configuration list for PBXNativeTarget "Units" */;
+			buildConfigurationList = 8C7DD86E28F9A39500D04D5F /* Build configuration list for PBXNativeTarget "Converter" */;
 			buildPhases = (
 				8C7DD85C28F9A39300D04D5F /* Sources */,
 				8C7DD85D28F9A39300D04D5F /* Frameworks */,
@@ -94,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Units;
+			name = Converter;
 			productName = Units;
-			productReference = 8C7DD86028F9A39300D04D5F /* Units.app */;
+			productReference = 8C7DD86028F9A39300D04D5F /* Converter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C7DD85B28F9A39300D04D5F /* Build configuration list for PBXProject "Units" */;
+			buildConfigurationList = 8C7DD85B28F9A39300D04D5F /* Build configuration list for PBXProject "Converter" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C7DD85F28F9A39300D04D5F /* Units */,
+				8C7DD85F28F9A39300D04D5F /* Converter */,
 			);
 		};
 /* End PBXProject section */
@@ -149,12 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7DD86628F9A39300D04D5F /* LengthView.swift in Sources */,
-				8C7DD87628F9BF6200D04D5F /* TemperatureView.swift in Sources */,
-				8C7DD87828F9BF7000D04D5F /* TimeView.swift in Sources */,
-				8C7DD87428F9BCB100D04D5F /* ListView.swift in Sources */,
-				8C7DD87A28F9BF7A00D04D5F /* VolumeView.swift in Sources */,
-				8C7DD86428F9A39300D04D5F /* UnitsApp.swift in Sources */,
+				8C7DD86628F9A39300D04D5F /* ConverterView.swift in Sources */,
+				8C7DD86428F9A39300D04D5F /* ConverterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +266,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Units/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Converter/Preview Content\"";
 				DEVELOPMENT_TEAM = P5LMCYYJGR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Converter;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,10 +296,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Units/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Converter/Preview Content\"";
 				DEVELOPMENT_TEAM = P5LMCYYJGR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Converter;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -336,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C7DD85B28F9A39300D04D5F /* Build configuration list for PBXProject "Units" */ = {
+		8C7DD85B28F9A39300D04D5F /* Build configuration list for PBXProject "Converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C7DD86C28F9A39500D04D5F /* Debug */,
@@ -345,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C7DD86E28F9A39500D04D5F /* Build configuration list for PBXNativeTarget "Units" */ = {
+		8C7DD86E28F9A39500D04D5F /* Build configuration list for PBXNativeTarget "Converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C7DD86F28F9A39500D04D5F /* Debug */,

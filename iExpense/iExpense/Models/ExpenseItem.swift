@@ -2,7 +2,7 @@
 //  ExpenseItem.swift
 //  iExpense
 //
-//  Created by Kuba Rejmann on 28/10/2022.
+//  Created by Kuba Rejmann on 20/03/2023.
 //
 
 import Foundation

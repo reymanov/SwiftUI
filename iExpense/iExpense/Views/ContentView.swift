@@ -2,37 +2,38 @@
 //  ContentView.swift
 //  iExpense
 //
-//  Created by Kuba Rejmann on 28/10/2022.
+//  Created by Kuba Rejmann on 20/03/2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     @StateObject var expenses = Expenses()
-    @State var showingAddExpense = false
+    @State private var showingAddExpense = false
     
     var body: some View {
         NavigationView {
             List {
                 ForEach(expenses.items, id: \.id) { item in
                     HStack {
-                        VStack(alignment: .leading){
+                        VStack(alignment: .leading) {
                             Text(item.name)
                                 .font(.headline)
                             Text(item.type)
                         }
-                        Spacer()
                         
+                        Spacer()
                         Text(item.amount, format: .currency(code: "USD"))
                     }
-                    
                 }
                 .onDelete(perform: removeItems)
+                
             }
             .navigationTitle("iExpense")
             .toolbar {
+                EditButton()
                 Button {
-                   showingAddExpense = true
+                    showingAddExpense = true
                 } label: {
                     Image(systemName: "plus")
                 }
